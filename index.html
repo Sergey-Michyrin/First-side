@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <h1 class="title">Школа программирования "Hello, world!"</h1>
+    
+    <hr class="underline">
+    <h2 class="welcome">Здравствуйте! Мы очень рады, что вы решили присоединиться к нам! <br> Пожалуйста, заполните форму регистрации ниже:</h2>
+    <form action="#" class="form">
+        <div class="action">
+            <a href="login.html">Войти</a>
+            <a href="#">Регистрация</a>
+
+        </div>
+        <p class="text_center">Придумай пароль</p>
+        <input  class="logpass" type="text" placeholder="Придумай логин">
+        <p class="text_center">Придумай пароль</p>
+        <input class="logpass"  type="password" placeholder="Придумай пароль">
+        <p class="text_center">Выбери пол</p>
+
+        <div class="all_answer_pol"> 
+            <input class="answer_pol" type="radio" name="answer"><label>Мужской</label>
+            <input class="answer_pol" type="radio" name="answer"><label>Женский</label>
+        </div>   
+
+        <p class="text_center">Выбери желаемые курсы</p>
+        <div class="all_lessons">   
+            <input id="Python" class="lesson" type="checkbox" name="lessons"> <label for="Python" >Python</label>
+            <input id="Python_1" class="lesson" type="checkbox" name="lessons"> <label for="Python_1" >Python</label>
+            <input id="Python_2" class="lesson" type="checkbox" name="lessons"> <label for="Python_2" >Python</label>
+            <input id="Python_3" class="lesson" type="checkbox" name="lessons"> <label for="Python_3" >Python</label>
+            <input id="Python_4" class="lesson" type="checkbox" name="lessons"> <label for="Python_4" >Python</label>
+            <input id="Python_5" class="lesson" type="checkbox" name="lessons"> <label for="Python_5">Python</label>
+            
+        </div> 
+        <p class="text_center">Расскажи немного о себе, о своих предпочтениях и вкусах</p>
+        <textarea class="self_review" placeholder="Расскажи о себе" rows=“90” cols=“50”></textarea>
+        <input type="button" value="Зарегестрироваться" class="registration">
+
+        <select name="" id=""><option value="">Hello</option><option value="">world</option></select>
+        <fieldset>  <legend>Настройка</legend><input type="text"><input type="text"></fieldset>
+
+
+    </form>
+
+
+
+</body>
+</html>

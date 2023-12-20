@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
+::-webkit-input-placeholder {
+    text-align:center;
+    }
+    
+    :-moz-placeholder { /* Firefox 18- */
+       text-align:center;  
+    }
+    
+    ::-moz-placeholder {  /* Firefox 19+ */
+       text-align:center;  
+    }
+    
+    :-ms-input-placeholder {  
+       text-align:center; 
+    }
+
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: url(img/logo.png) no-repeat;
+    background-position: top right;
+    cursor: progress;
+}
+
+.title{
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+.welcome{
+    text-align: center;
+    font-size: 20px;
+}
+
+.underline{
+    border: 0px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form{
+    background-color: blueviolet;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 20%;
+}
+.text_center{
+
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.logpass{
+    text-align: center;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(193, 150, 232);
+    border-radius: 20px;
+}
+
+.answer_pol{
+    
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+.all_answer_pol{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+.all_lessons{
+    width: 75%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lesson{
+
+    margin-left: 17px;
+    
+}
+
+.self_review{
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    resize: vertical;
+    
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+
+.registration{
+    background-color: yellow;
+    display: block;
+    height: 10%;
+    width: 80%;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
